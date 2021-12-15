@@ -1,0 +1,16 @@
+<div class="container" *ngIf="pessoa">
+    <div class="row mt-5">
+        <div class="col-md-4 mx-auto">
+            <div class="card">
+                <div class="card-header">
+                  Detalhes
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><b>{{pessoa.id}}.</b> {{pessoa.nome}} {{pessoa.sobrenome}}</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor velit magnam quia reiciendis eos optio vitae, unde doloremque nulla reprehenderit eligendi, explicabo quas quis, nesciunt cum perspiciatis. Iusto, maiores eaque!</p>
+                  <a class="btn btn-outline-primary" (click)="voltar()"><i class="fas fa-chevron-circle-left"></i> Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
